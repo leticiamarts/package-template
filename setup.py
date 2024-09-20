@@ -14,7 +14,6 @@ setup(
     description="A Python package for image processing including filters and transformations.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/leticiamarts/image_processor_pkg",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
