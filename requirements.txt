@@ -4,7 +4,6 @@ charset-normalizer==3.3.2
 colorama==0.4.6
 docutils==0.21.2
 idna==3.10
--e git+https://github.com/leticiamarts/package-template.git@823ad08dc6dc57167cafd749417f5d959554d2b8#egg=image_processor_pkg
 importlib_metadata==8.5.0
 iniconfig==2.0.0
 jaraco.classes==3.4.0
