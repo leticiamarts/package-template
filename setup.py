@@ -7,15 +7,20 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="image_processor_pkg",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Leticia Martins dos Santos",
+    author_email="leticiamarts99@gmail.com",
+    description="A Python package for image processing including filters and transformations.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/leticiamarts/image_processor_pkg",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
+    ],
+    test_suite='pytest',
 )
